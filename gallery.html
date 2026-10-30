@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Gallery | Crown Interiors and Exteriors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <img src="images/log1.jpeg" alt="Crown Interiors &amp; Exteriors logo">
+                <span class="logo-text">CROWN <small>INTERIORS &amp; EXTERIORS</small></span>
+            </a>
+
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="gallery.html" class="active">Gallery</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <div class="header-phones">
+                    <a href="tel:0752553819">0752553819</a>
+                    <a href="tel:0751831699">0751831699</a>
+                </div>
+                <button class="menu-toggle" type="button" aria-label="Open menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+<main>
+    <section class="page-hero">
+        <p class="eyebrow">QUALITY • STYLE • CRAFTSMANSHIP</p>
+        <h1>Our Gallery</h1>
+        <div class="gold-line"></div>
+        <p>Explore our collection of mirrors, metallic products and beautiful designs.</p>
+    </section>
+
+    <section class="gallery-section">
+        <div class="section-heading">
+            <p class="eyebrow">OUR WORK</p>
+            <h2>Discover Our Designs</h2>
+            <p>Choose a category to explore our work.</p>
+        </div>
+
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="gates">Gates</button>
+            <button class="filter-btn" data-filter="doors">Doors</button>
+            <button class="filter-btn" data-filter="windows">Windows</button>
+            <button class="filter-btn" data-filter="mirrors">Mirrors</button>
+            <button class="filter-btn" data-filter="dining">Dining</button>
+            <button class="filter-btn" data-filter="beds">Beds</button>
+            <button class="filter-btn" data-filter="cases">Metallic Cases</button>
+            <button class="filter-btn" data-filter="tables">Tables</button>
+            <button class="filter-btn" data-filter="other">Other Products</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+
+            <article class="gallery-card" data-category="gates">
+                <img src="images/gat1.jpeg" alt="Metal gate design" loading="lazy">
+                <h3>Metal Gates</h3>
+            </article>
+            <article class="gallery-card" data-category="gates">
+                <img src="images/gat2.jpeg" alt="Gate design" loading="lazy">
+                <h3>Metal Gates</h3>
+            </article>
+            <article class="gallery-card" data-category="gates">
+                <img src="images/gat3.jpeg" alt="Gate craftsmanship" loading="lazy">
+                <h3>Gate Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="gates">
+                <img src="images/gat4.jpeg" alt="Metal gate" loading="lazy">
+                <h3>Gate Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="gates">
+                <img src="images/gat5.jpeg" alt="Metal gate workmanship" loading="lazy">
+                <h3>Gate Designs</h3>
+            </article>
+
+            <article class="gallery-card" data-category="doors">
+                <img src="images/dr1.jpeg" alt="Door design" loading="lazy">
+                <h3>Doors</h3>
+            </article>
+            <article class="gallery-card" data-category="doors">
+                <img src="images/g3.jpeg" alt="Door craftsmanship" loading="lazy">
+                <h3>Door Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="doors">
+                <img src="images/wd9.jpeg" alt="Door design" loading="lazy">
+                <h3>Door Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="doors">
+                <img src="images/wd4.jpeg" alt="Door workmanship" loading="lazy">
+                <h3>Door Designs</h3>
+            </article>
+
+            <article class="gallery-card" data-category="windows">
+                <img src="images/wd2.jpeg" alt="Window design" loading="lazy">
+                <h3>Metal Windows</h3>
+            </article>
+            <article class="gallery-card" data-category="windows">
+                <img src="images/wd5.jpeg" alt="Metal window" loading="lazy">
+                <h3>Metal Windows</h3>
+            </article>
+            <article class="gallery-card" data-category="windows">
+                <img src="images/wd6.jpeg" alt="Window craftsmanship" loading="lazy">
+                <h3>Window Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="windows">
+                <img src="images/wd7.jpeg" alt="Metal window design" loading="lazy">
+                <h3>Window Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="windows">
+                <img src="images/wd8.jpeg" alt="Window workmanship" loading="lazy">
+                <h3>Window Designs</h3>
+            </article>
+
+            <article class="gallery-card" data-category="mirrors">
+                <img src="images/bla1.jpeg" alt="Black mirror design" loading="lazy">
+                <h3>Black Mirror</h3>
+            </article>
+            <article class="gallery-card" data-category="mirrors">
+                <img src="images/blu1.jpeg" alt="Blue mirror design" loading="lazy">
+                <h3>Blue Mirror</h3>
+            </article>
+            <article class="gallery-card" data-category="mirrors">
+                <img src="images/mr2.jpeg" alt="Decorative mirror" loading="lazy">
+                <h3>Mirror Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="mirrors">
+                <img src="images/mr3.jpeg" alt="Decorative mirror" loading="lazy">
+                <h3>Mirror Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="mirrors">
+                <img src="images/mr4.jpeg" alt="Decorative mirror" loading="lazy">
+                <h3>Mirror Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="mirrors">
+                <img src="images/mr6.jpeg" alt="Decorative mirror" loading="lazy">
+                <h3>Mirror Designs</h3>
+            </article>
+
+            <article class="gallery-card" data-category="dining">
+                <img src="images/dw.jpeg" alt="Dining furniture" loading="lazy">
+                <h3>Dining Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="dining">
+                <img src="images/dw2.jpeg" alt="Dining table design" loading="lazy">
+                <h3>Dining Tables</h3>
+            </article>
+            <article class="gallery-card" data-category="dining">
+                <img src="images/dw3.jpeg" alt="Dining furniture design" loading="lazy">
+                <h3>Dining Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="dining">
+                <img src="images/dw4.jpeg" alt="Dining furniture" loading="lazy">
+                <h3>Dining Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="dining">
+                <img src="images/dw5.jpeg" alt="Dining table and chairs" loading="lazy">
+                <h3>Dining Tables</h3>
+            </article>
+
+            <article class="gallery-card" data-category="beds">
+                <img src="images/sc1.jpeg" alt="Metal bed design" loading="lazy">
+                <h3>Metal Beds</h3>
+            </article>
+            <article class="gallery-card" data-category="beds">
+                <img src="images/sc2.jpeg" alt="Bed craftsmanship" loading="lazy">
+                <h3>Metal Beds</h3>
+            </article>
+            <article class="gallery-card" data-category="beds">
+                <img src="images/sc3.jpeg" alt="Metal bed" loading="lazy">
+                <h3>Bed Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="beds">
+                <img src="images/sc4.jpeg" alt="Metal bed design" loading="lazy">
+                <h3>Bed Designs</h3>
+            </article>
+
+            <article class="gallery-card" data-category="cases">
+                <img src="images/ld1.jpeg" alt="Metallic case" loading="lazy">
+                <h3>Metallic Cases</h3>
+            </article>
+            <article class="gallery-card" data-category="cases">
+                <img src="images/ld2.jpeg" alt="Metal storage case" loading="lazy">
+                <h3>Metallic Cases</h3>
+            </article>
+            <article class="gallery-card" data-category="cases">
+                <img src="images/ld3.jpeg" alt="Metal case design" loading="lazy">
+                <h3>Metallic Cases</h3>
+            </article>
+            <article class="gallery-card" data-category="cases">
+                <img src="images/ld4.jpeg" alt="Metallic case design" loading="lazy">
+                <h3>Metallic Cases</h3>
+            </article>
+            <article class="gallery-card" data-category="cases">
+                <img src="images/ld6.jpeg" alt="Metal storage case" loading="lazy">
+                <h3>Metallic Cases</h3>
+            </article>
+
+            <article class="gallery-card" data-category="tables">
+                <img src="images/tb2.jpeg" alt="Table design" loading="lazy">
+                <h3>Tables</h3>
+            </article>
+            <article class="gallery-card" data-category="tables">
+                <img src="images/tb4.jpeg" alt="Metal table design" loading="lazy">
+                <h3>Tables</h3>
+            </article>
+            <article class="gallery-card" data-category="tables">
+                <img src="images/cp1.jpeg" alt="Table craftsmanship" loading="lazy">
+                <h3>Table Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="tables">
+                <img src="images/dw7.jpeg" alt="Table design" loading="lazy">
+                <h3>Tables</h3>
+            </article>
+
+            <article class="gallery-card" data-category="other">
+                <img src="images/gat6.jpeg" alt="Metalwork product" loading="lazy">
+                <h3>Metalwork</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/gat7.jpeg" alt="Metalwork design" loading="lazy">
+                <h3>Metalwork</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/gt1.jpeg" alt="Metal product" loading="lazy">
+                <h3>Metalwork</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/gt3.jpeg" alt="Metal product design" loading="lazy">
+                <h3>Metalwork</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/bl1.jpeg" alt="Decorative product" loading="lazy">
+                <h3>Decorative Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/blu2.jpeg" alt="Decorative product" loading="lazy">
+                <h3>Decorative Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/blu3.jpeg" alt="Decorative product" loading="lazy">
+                <h3>Decorative Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/bron1.jpeg" alt="Decorative product" loading="lazy">
+                <h3>Decorative Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/bron2.jpeg" alt="Decorative product" loading="lazy">
+                <h3>Decorative Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/mr7.jpeg" alt="Mirror and metalwork product" loading="lazy">
+                <h3>Other Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/mr8.jpeg" alt="Mirror and metalwork product" loading="lazy">
+                <h3>Other Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/mr9.jpeg" alt="Mirror and metalwork product" loading="lazy">
+                <h3>Other Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/mr10.jpeg" alt="Mirror and metalwork product" loading="lazy">
+                <h3>Other Designs</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/me1.jpeg" alt="Metalwork product" loading="lazy">
+                <h3>Metalwork</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/me2.jpeg" alt="Metalwork product" loading="lazy">
+                <h3>Metalwork</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/me3.jpeg" alt="Metalwork product" loading="lazy">
+                <h3>Metalwork</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/me4.jpeg" alt="Metalwork product" loading="lazy">
+                <h3>Metalwork</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/me5.jpeg" alt="Metalwork product" loading="lazy">
+                <h3>Metalwork</h3>
+            </article>
+            <article class="gallery-card" data-category="other">
+                <img src="images/dw6.jpeg" alt="Metal and dining product" loading="lazy">
+                <h3>Other Designs</h3>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="gallery-cta">
+        <h2>Have a Design in Mind?</h2>
+        <div class="gold-line"></div>
+        <p>Contact us to discuss your preferred design, repair or replacement.</p>
+        <a class="gold-button" href="contact.html">Contact Us</a>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>&copy; <span id="year"></span> Crown Interiors and Exteriors. All rights reserved.</p>
+    <p>Call: <a href="tel:0752553819">0752553819</a> |
+       WhatsApp: <a href="https://wa.me/256786224444" target="_blank" rel="noopener">0786224444</a></p>
+</footer>
+
+</body>
+</html>

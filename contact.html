@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Crown Interiors &amp; Exteriors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="contact-page">
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <img src="images/log1.jpeg" alt="Crown Interiors &amp; Exteriors logo">
+                <span class="logo-text">CROWN <small>INTERIORS &amp; EXTERIORS</small></span>
+            </a>
+
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <div class="header-phones">
+                    <a href="tel:0752553819">0752553819</a>
+                    <a href="tel:0751831699">0751831699</a>
+                </div>
+                <button class="menu-toggle" type="button" aria-label="Open menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <p class="contact-eyebrow">WE WOULD LOVE TO HEAR FROM YOU</p>
+            <h1>Contact Us</h1>
+            <div class="contact-gold-line"></div>
+            <p>
+                Looking for metallic products, beautiful mirrors,
+                repairs or replacements? Get in touch with
+                Crown Interiors &amp; Exteriors.
+            </p>
+        </section>
+
+        <section class="contact-options">
+            <div class="contact-card">
+                <span class="contact-icon">☎</span>
+                <h2>Call Us</h2>
+                <p>Speak to us directly about your needs.</p>
+                <a href="tel:0752553819" class="contact-outline-button">0752553819</a>
+                <a href="tel:0751831699" class="contact-outline-button">0751831699</a>
+            </div>
+            <div class="contact-card">
+                <span class="contact-icon">✉</span>
+                <h2>WhatsApp Us</h2>
+                <p>Send us a message about your project.</p>
+                <a href="https://wa.me/256786224444" class="contact-gold-button" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+            </div>
+            <div class="contact-card">
+                <span class="contact-icon">◇</span>
+                <h2>Explore Our Work</h2>
+                <p>See our metallic products and mirror designs.</p>
+                <a href="gallery.html" class="contact-gold-button">View Gallery</a>
+            </div>
+        </section>
+
+        <section class="contact-enquiry">
+            <p class="contact-eyebrow">LET'S DISCUSS YOUR PROJECT</p>
+            <h2>Send Us an Enquiry</h2>
+            <div class="contact-gold-line"></div>
+            <p>
+                Fill in your details below. Your message will open
+                in WhatsApp, where you can review and send it to us.
+            </p>
+            <form class="contact-form" action="https://wa.me/256786224444" method="get" target="_blank">
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" name="name" placeholder="Enter your name" required>
+                <label for="contact-phone">Your Phone Number</label>
+                <input type="tel" id="contact-phone" name="phone" placeholder="Enter your phone number" required>
+                <label for="contact-service">What do you need?</label>
+                <select id="contact-service" name="service" required>
+                    <option value="">Choose a service</option>
+                    <option value="Mirrors">Mirrors</option>
+                    <option value="Gates and doors">Gates and doors</option>
+                    <option value="Metallic windows">Metallic windows</option>
+                    <option value="Beds and metallic cases">Beds and metallic cases</option>
+                    <option value="Tables and TV stands">Tables and TV stands</option>
+                    <option value="Repair or replacement">Repair or replacement</option>
+                    <option value="Other products">Other products</option>
+                </select>
+                <label for="contact-message">Your Message</label>
+                <textarea id="contact-message" name="message" rows="5" placeholder="Tell us what you are looking for..." required></textarea>
+                <button type="submit" class="contact-gold-button">Send Enquiry on WhatsApp</button>
+            </form>
+        </section>
+
+        <section class="contact-closing">
+            <h2>Thank You for Choosing Crown</h2>
+            <div class="contact-gold-line"></div>
+            <p>
+                We look forward to hearing from you and discussing
+                how we can help with your metallic products and
+                mirror design needs.
+            </p>
+            <a href="gallery.html" class="contact-gold-button">Explore Our Gallery</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; Crown Interiors &amp; Exteriors. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
